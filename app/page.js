@@ -1,4 +1,5 @@
-import Link from 'next/link';
+
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -6,6 +7,9 @@ export default function Page() {
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <Link href="/week-2">
         <h2 className='text-2xl pt-10'>Week 2 Assignment</h2>
+      </Link>
+      <Link href="/week-3">
+        <h2 className='text-2xl pt-10'>Week 3 Assignment</h2>
       </Link>
     </main>
   );
