@@ -1,7 +1,7 @@
 
 import Link from "next/link";
-import NewItem from "./week-4/new-item";
 import React from "react";
+
 
 export default function Page() {
   return (
@@ -15,6 +15,12 @@ export default function Page() {
       </Link>
       <Link href="/week-4">
         <h2 className='text-2xl pt-10'>Week 4 Assignment</h2>
+      </Link>
+      <Link href="/week-5">
+        <h2 className='text-2xl pt-10'>Week 5 Assignment</h2>
+      </Link>
+      <Link href="/week-6">
+        <h2 className='text-2xl pt-10'>Week 6 Assignment</h2>
       </Link>
     </main>
   );
